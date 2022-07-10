@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {} from '../src/style.css';
 
-function Saludo() {
-  return <h1>Hola a todos!</h1>;
-}
+const mensaje = (
+  <input type={'password'} className="input" />
+);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Saludo/>);
+root.render(mensaje);
