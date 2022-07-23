@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {} from '../src/style.css';
+import Main from './proyects/piedraPapel/Main';
 
-const mensaje = (
-  <input type={'password'} className="input" />
-);
+const App = () => {
+  return(
+    <Main/>
+  );
+};
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(mensaje);
+root.render(<App/>);
