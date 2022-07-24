@@ -137,6 +137,10 @@ p, h1, h2, h3, h4, h5, h6 { margin: 0px}
     text-align: center;
     text-transform: uppercase;
 }
+.modal-resultados img {
+    padding: 15px;
+    animation: zoom 1s infinite alternate-reverse;
+}
 .modal-resultados h1 {
     font-size: 35px;
     padding-bottom: 10px;
