@@ -50,7 +50,7 @@ const Main = () => {
 
     useEffect(() => {
         let nombre = prompt('Ingresa tu nombre:');
-        nombre = (nombre == '') ? 'Jugador1' : nombre;
+        nombre = (nombre === '') ? 'Jugador1' : nombre;
         setNombreJugador(nombre);
         playAudio('turnojugador');
     }, []);
